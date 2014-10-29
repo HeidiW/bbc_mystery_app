@@ -1,0 +1,18 @@
+<style scoped>
+  .site-header {display: none;}
+</style>
+
+<h1 class="welcome-heading">Welcome to Friends of Hathaway</h1>
+<h2 class="tagline"></h2>
+<div class="welcome-body">
+	<div class="user-greeting">
+    <% if current_user %>
+    <h2 class='login-signup'>
+    	<%= current_user.email %>
+    </h2>
+    <% else %>
+    <h2 class="login-signup">
+    	Sign in or sign up!
+    </h2>
+    <% end %>
+</div>

@@ -1,0 +1,17 @@
+.show, .the-show {
+	display: table-row;
+}
+
+.poster, .info, .the-show {
+	display: table-cell;
+}
+
+.poster, .the-show {
+	width: 25%;
+}
+
+.info {
+	vertical-align: middle;
+	width: 75%;
+}
+
