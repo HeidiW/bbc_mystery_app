@@ -4,6 +4,7 @@
 
 .poster, .info, .the-show {
 	display: table-cell;
+
 }
 
 .poster, .the-show {
@@ -13,5 +14,23 @@
 .info {
 	vertical-align: middle;
 	width: 75%;
+	margin-left: 60px;
+	font-family: 'EB Garamond', serif;
+	font-size: 18px;
 }
+
+.show-list {
+	color: black;
+	padding-bottom: 20px;
+}
+
+.show-greeting {
+	font-family: 'EB Garamond';
+	font-size: 20px;
+}
+
+
+
+
+
 

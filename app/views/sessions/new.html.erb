@@ -1,3 +1,6 @@
+<body class="login-background">
+	
+
 <h2>Welccome back! Please log in.</h2>
 <h5>"God is in everything"</h5>
 <%= form_tag session_path do %>
@@ -11,11 +14,9 @@
 	<%= password_field_tag :password, nil, :placeholder => "Password" %>
 </div>
 <br>
-<div class="field">
-	<%= label_tag :remember_me , :class => "checkbox small" do %>
-	<%= check_box_tag :remember_me, 1, params[:remember_me] %>
-	Remember me
-	<% end %>
+<div class="remember-me-field">
+	<%= check_box_tag(:remember_me) %>
+	<%= label_tag(:remember_me, "Remember Me") %>
 </div>
 <div class="field">
 	<%= submit_tag "Sign in" %>
@@ -28,3 +29,4 @@
 </div>
 <% end %>
 
+</body>

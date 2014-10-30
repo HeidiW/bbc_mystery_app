@@ -25,14 +25,37 @@ html {
 	padding: 1em;
 }
 
-.sgt_hathaway, .login-signup {
-	height: auto;
-	width: 25%;
-	float: right;
-	margin-right: 500px;
-	opacity: 0.6;
-}
-
 .repeat_password {
 	margin: 2px;
+}
+
+input#password {
+	margin-left: 48px;
+}
+
+form {
+	display:block;
+	text-align: left;
+}
+
+input#user_password_confirmation {
+	margin-left:5px;
+	padding:0;
+}
+.field {
+	display:block;
+	text-align: left;
+	font-size: 22px;
+	color: white;
+	margin: 10px 0px 23px 80px;
+}
+.remember-me-field {
+	color: white;
+	height: 20px;
+}
+input {
+	width:200px;
+	height:100%;
+	margin-left: 80px;
+	font-size: 20px;
 }

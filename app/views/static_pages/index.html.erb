@@ -1,15 +1,17 @@
+<body class="login-background">
 <h1></h1>
-<p>Discuss your favorite BBC murder mysteries series here.</p>
+<div class="hathaway_rain">
+
+<h2><span></span>
 <% if session[:user] %>
-	<h2>Hello <%= (user = User.find(session[:user])).name %>
-	</h2>
-	<h5><%= link_to "Signout", session_path(user), method: :delete %>
+	<h3>Hello <%= (user = User.find(session[:user])).name %>
+	<h4><%= link_to "Signout", session_path(user), method: :delete %>
 	<% else %>
 	<div class="login-signup-buttons">
 	<p id="error"><%= flash[:error] %></p>
 	<%= link_to "Register", new_user_path, class: "button" %><br>
 	<%= link_to "Log In", login_path, class: "button" %>
-	
 	<% end %>
-		<%= image_tag "sgt_hathaway.jpg", class: "sgt_hathaway" %>
 </div>
+<div>
+</body>

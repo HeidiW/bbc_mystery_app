@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   root 'static_pages#index'
   #root 'users#index'
   get 'login' => 'sessions#new'
+  get '/help', to: 'pages#help'
 
   resource :session, only: [:create, :destroy]
 

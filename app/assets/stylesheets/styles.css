@@ -1,21 +1,22 @@
 body {
-    margin: 60px;
 }
 h1 {
+    color: grey;
     font-family: 'Dancing Script', cursive;
     font-weight: 700;
     line-height: 46px;
-    font-size: 42px;
-    margin: 0 0 23px 0;
+    font-size: 70px;
+    margin: 40px 40px 60px 80px;
     }
 h2 {
     font-family: 'EB Garamond', serif;
+    color: grey;
     font-weight: normal;
     text-transform: uppercase;
-    font-size: 18px;
-    line-height: 23px;
+    font-size: 26px;
+    line-height: 2px
     letter-spacing: 2px;
-    margin: 0 0 23px 0;
+    margin: 0px 0px 0px 80px;
     }
 h3 {
     font-family: 'Arial', serif;
@@ -24,7 +25,7 @@ h3 {
     font-size: 16px;
     line-height: 20px;
     letter-spacing: 2px;
-    margin: 0 0 23px 0;
+    margin: 0 0 23px 80;
     }
 p {
     font-family: 'EB Garamond', serif;
@@ -35,12 +36,16 @@ p {
 
 .site-navigation {
     font-size: 1.5em;
+    color: black;
     text-align: center;
+    margin-top: 60px;
 }
 
 .site-navigation a {
     margin: 0 1rem;
     text-decoration: none;
+    color: grey;
+    font-size: 40px;
 }
 
 .site-header {
