@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   
+  get 'profiles/show'
+
   root 'static_pages#index'
   #root 'users#index'
   get 'login' => 'sessions#new'
