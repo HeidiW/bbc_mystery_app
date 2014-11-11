@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   #root 'users#index'
   get 'login' => 'sessions#new'
   get '/help', to: 'pages#help'
+  #get '/:id', to: 'profiles/show'
 
   resource :session, only: [:create, :destroy]
 
