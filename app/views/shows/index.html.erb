@@ -2,8 +2,9 @@
   .site-header {display: none;}
 </style>
 
-
-<h1>Hello, Friend!</h1>
+<div class="hello-user">
+<h1>Hello, <%= current_user.name %></h1>
+</div>
 <h2>Choose a show:</h2>
 <div class="show-list">
 </div>
